@@ -9,9 +9,6 @@ usage : reply image, or send image with caption\n
 command : *${prefix}toimg*
 desc : convert sticker to image
 usage : reply sticker\n
-command : *${prefix}tsticker* or *${prefix}tstiker*
-desc : convert text to sticker
-usage : *${prefix}tsticker text in here*\n
 > *Others Commands* <
 command : *${prefix}tts*
 desc : convert text to speech/audio

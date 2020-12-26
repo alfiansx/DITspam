@@ -17,7 +17,7 @@ Before running the below command, make sure you're in the project directory that
 you've just cloned!!
 
 ```bash
-> cd termux-wabot
+> cd bot-wa
 > bash install.sh
 ```
 
@@ -59,6 +59,7 @@ you've just cloned!!
 ## Special Thanks to
 * [`adiwajshing/Baileys`](https://github.com/adiwajshing/Baileys)
 * [`MhankBarBar/termux-wabot`](https://github.com/MhankBarBar/termux-wabot)
+* [Toby](https://github.com/TobyG74)
 
 ## Group
 * [`WhatsApp`](https://chat.whatsapp.com/KLfjq8AK4Jz62Pqfz5sv0v)

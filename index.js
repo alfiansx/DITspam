@@ -19,10 +19,7 @@ const ffmpeg = require('fluent-ffmpeg')
 const { removeBackgroundFromImageFile } = require('remove.bg')
 const imgbb = require('imgbb-uploader')
 const lolis = require('lolis.life')
-const loli = new lolis()
 const welkom = JSON.parse(fs.readFileSync('./src/welkom.json'))
-const nsfw = JSON.parse(fs.readFileSync('./src/nsfw.json'))
-const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 prefix = '!'
 blocked = []
 
@@ -484,14 +481,14 @@ async function starts() {
 						fs.unlinkSync(ran)
 					})
 					break
-				case 'simi':
+				/*case 'simi':
 					if (args.length < 1) return reply('Textnya mana um?')
 					teks = body.slice(5)
 					anu = await simih(teks) //fetchJson(`https://mhankbarbars.herokuapp.com/api/samisami?text=${teks}`, {method: 'get'})
 					//if (anu.error) return reply('Simi ga tau kak')
 					reply(anu)
-					break
-				case 'simih':
+					break*/
+				/*case 'simih':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					if (args.length < 1) return reply('Hmmmm')
@@ -507,7 +504,7 @@ async function starts() {
 					} else {
 						reply('1 untuk mengaktifkan, 0 untuk menonaktifkan')
 					}
-					break
+					break*/
 				case 'welcome':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)

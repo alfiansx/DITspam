@@ -13,15 +13,6 @@ usage : reply sticker\n
 command : *${prefix}tts*
 desc : convert text to speech/audio
 usage : *${prefix}tts [cc] [text]*\nexample : *${prefix}tts ja On2-chan*\n
-command : *${prefix}loli*
-desc : random loli images
-usage : just send the command\n
-command : *${prefix}nsfwloli*
-desc : random nsfw loli images
-usage : just send the command\n
-command : *${prefix}simi*
-desc : your message will be replied to by simi
-usage : *${prefix}simi yourmessage*\n
 command : *${prefix}ocr*
 desc : take the text in the picture
 usage : reply image, or send image with caption\n
@@ -56,10 +47,6 @@ note : can only be used when the bot becomes admin, and the one who sends the co
 command : *${prefix}tagall*
 desc : tags all group members including admins too
 usage : just send the command
-note : This command can be used if you are a group admin\n
-command : *${prefix}simih*
-desc : activate simi mode in the group
-usage : *${prefix}simih 1* to activate simi mode and *${prefix}simih 0* to deactivate simi mode
 note : This command can be used if you are a group admin\n`
 }
 

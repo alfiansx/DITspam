@@ -59,9 +59,8 @@ you've just cloned!!
 ## Special Thanks to
 * [`adiwajshing/Baileys`](https://github.com/adiwajshing/Baileys)
 * [`MhankBarBar/termux-wabot`](https://github.com/MhankBarBar/termux-wabot)
-* [Toby](https://github.com/TobyG74)
+* [`Toby`](https://github.com/TobyG74)
+* [`IbnuSyawall`](https://github.com/ibnusyawall)
 
-## Group
-* [`WhatsApp`](https://chat.whatsapp.com/KLfjq8AK4Jz62Pqfz5sv0v)
 ### Donate
 * [`Saweria`](https://saweria.co/donate/aditiaalfians)
